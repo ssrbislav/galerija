@@ -1,0 +1,63 @@
+
+
+.polaroid {
+	margin-left: 30px;
+	padding:10px 10px 20px 10px;
+	border:1px solid #BFBFBF;
+	background-color: rgba(255, 255, 255, 0.9);
+	box-shadow:3px 5px 0px #000;
+}
+
+.polaroid img {
+	  object-fit: cover;
+}
+
+.rotiraj_levo {
+float:left;
+transform:rotate(7deg);
+}
+
+.rotiraj_desno {
+float:left;
+transform:rotate(-8deg);
+}
+
+.polaroid:hover {
+  -moz-transform: scale(1.3);
+  position: relative;
+  z-index: 5;
+  transition: transform .3s linear;
+  box-shadow: 0 0px 0px rgba(0,0,0,.25);
+}
+
+.image-wrapper {
+	text-align: center;
+}
+
+#home {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	right: 10px;
+	top: 45%;
+	text-align: center;
+}
+
+#home a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 100px;
+}
+
+#home:hover {
+	background: rgba(0, 0, 0, 0.9);
+}
+
+#home a:hover {
+	text-decoration: underline;
+}
